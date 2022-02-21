@@ -67,3 +67,37 @@ button.active {
     height: 500px;
     background-color: #fff;
 }
+
+@media (max-width: 1200px) {
+    #container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 850px) {
+    #container {
+        gap: 50px;
+    }
+
+    #grid-container {
+        width: 400px;
+        height: 400px;
+    }
+
+    #controls {
+        width: 150px;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 650px) {
+    #container {
+        flex-direction: column-reverse;
+        gap: 18px;
+    }
+
+    #grid-container {
+        width: 300px;
+        height: 300px;
+    }
+}
